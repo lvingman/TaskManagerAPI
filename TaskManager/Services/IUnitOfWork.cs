@@ -1,4 +1,6 @@
-﻿namespace TaskManager.Services;
+﻿using TaskManager.DataAccess.Repositories;
+
+namespace TaskManager.Services;
 
 public interface IUnitOfWork : IDisposable
 {

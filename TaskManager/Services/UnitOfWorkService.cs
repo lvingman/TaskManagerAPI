@@ -1,4 +1,7 @@
-﻿namespace TaskManager.Services;
+﻿using TaskManager.DataAccess;
+using TaskManager.DataAccess.Repositories;
+
+namespace TaskManager.Services;
 
 public class UnitOfWorkService : IUnitOfWork
 {
