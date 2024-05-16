@@ -6,6 +6,12 @@ namespace TaskManager.Models;
 
 public class Task
 {
+
+    
+    //ATTRIBUTES
+
+
+
     [Required]
     public int Id { get; set; }
     
@@ -14,12 +20,12 @@ public class Task
     public string Title { get; set; }
     
     [Required]
-    [Column ("Title", TypeName = "VARCHAR(200)")]
+    [Column ("Description", TypeName = "VARCHAR(200)")]
     public string Description { get; set; }
     
     [Required]
-    [Column ("Title", TypeName = "DATE")]
-    public DateOnly DueDate { get; set; }
+    [Column ("DueDate", TypeName = "VARCHAR(10)")]
+    public string DueDate { get; set; }
     
     [Required]
     public int StatusID { get; set; }
@@ -34,5 +40,6 @@ public class Task
     [Column ("Active", TypeName = "bit")]
     public bool Active { get; set; }
     
+ 
     
 }

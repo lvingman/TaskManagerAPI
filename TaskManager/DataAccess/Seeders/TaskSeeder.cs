@@ -13,10 +13,10 @@ public class TaskSeeder : IEntitySeeder
                 Id = 1,
                 Title = "Test1",
                 Description = "A test for a task",
-                DueDate = DateOnly.Parse("30/04/2024"),
+                DueDate = "30/04/2024",
                 Active = true,
                 StatusID = 1
-            });
-
+            }
+        );
     }
 }

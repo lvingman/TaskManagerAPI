@@ -1,6 +1,8 @@
-﻿namespace TaskManager.DataAccess.Repositories.Interfaces;
+﻿using Task = TaskManager.Models.Task;
 
-public interface ITaskRepository
+namespace TaskManager.DataAccess.Repositories.Interfaces;
+
+public interface ITaskRepository : IRepository<Task>
 {
     
 }

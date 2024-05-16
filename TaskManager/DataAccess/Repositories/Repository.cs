@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using TaskManager.DataAccess.Repositories.Interfaces;
-using Task = TaskManager.Models.Task;
+
 
 namespace TaskManager.DataAccess.Repositories;
 
